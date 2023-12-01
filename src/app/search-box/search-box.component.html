@@ -1,0 +1,23 @@
+<div class="container mt-5 m-auto w-50 shadow SearchForm">
+  <form>
+    <div class="col-md-3 w-75 mb-3">
+      <label for="exampleInputEmail1" class="form-label">Select Status:</label>
+      <select class="form-control" name="cartoonStatus" [(ngModel)]="Status" id="id1">
+        <option selected disabled>Choose...</option>
+        <option>Alive</option>
+        <option>Dead</option>
+        <option>Unknown</option>
+      </select>
+    </div>
+    <div class="col-md-3 w-50 mb-3">
+      <label for="Project" class="form-label">Select Species :</label>
+      <select class="form-control" name="cartoonSpecies" [(ngModel)]="Species" id="id2">
+        <option selected disabled>Choose...</option>
+        <option>Human</option>
+        <option>Alien</option>
+      </select>
+    </div>
+    <button class="btn btn-dark mt-2 mb-3" type="button" routerLink="/TableList"
+      [queryParams]="{'cartoonStatus':Status,'cartoonSpecies':Species}">Search</button>
+  </form>
+</div>

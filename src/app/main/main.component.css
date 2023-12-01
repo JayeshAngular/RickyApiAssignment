@@ -1,0 +1,33 @@
+.mainBody{
+    height: 619px;
+    width: 100%;
+    background: url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=826&t=st=1699603606~exp=1699604206~hmac=3b32bfc5c9601106cabcef326be059efc07d9bd543babce170b5509ca60cdbfc')no-repeat center center/cover;
+    /* background: url('https://img.freepik.com/premium-vector/white-background-with-blue-technology-circuit_583398-369.jpg')no-repeat center center/cover; */
+    /* background: url('https://img.freepik.com/premium-vector/white-abstract-technology-background-modern-design-vector-illustration_29865-6598.jpg?w=2000')no-repeat center center/cover; */
+
+    /* background: url('https://img.freepik.com/premium-photo/grey-abstract-background_427757-34.jpg')no-repeat center center/cover; */
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    /* margin: 8px; */
+}
+
+.navbar {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    border-radius: 5px;
+    /* border: 1px solid grey; */
+    box-shadow: 5px 5px 5px;
+}
+.navbar ul li{
+    list-style: none;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
